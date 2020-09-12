@@ -26,6 +26,15 @@ print(f"Player Choice: {player_choice}")
 comp_choice = random.choice(choices)
 print(f"Computer Choice: {comp_choice}")
 
+#Determine winner
 
+if player_choice == comp_choice:
+    print("*******Tie!*********")
+else:
+    if player_choice == "rock":
+        if comp_choice == "paper":
+            print("Computer Wins!")
+        elif comp_choice == "scissors":
+            print("Player Wins!")
 
 
