@@ -33,8 +33,17 @@ if player_choice == comp_choice:
 else:
     if player_choice == "rock":
         if comp_choice == "paper":
-            print("Computer Wins!")
-        elif comp_choice == "scissors":
-            print("Player Wins!")
-
+            print("*******Computer Wins!*******")
+        else:
+            print("*******Player Wins!*******")
+    elif player_choice == "paper":
+        if comp_choice == "scissors":
+            print("*******Computer Wins!*******")
+        else:
+            print("*******Player Wins!*******")
+    else:
+        if comp_choice == "rock":
+            print("*******Computer Wins!*******")
+        else:
+            print("*******Player Wins!*******")
 
